@@ -59,3 +59,9 @@ for i in powers_of_two():
     if i == 2048:
         break
 
+# 5. What's the difference between list and tuple?
+
+"""
+    List: is mutable (can be changed), is slower than tuple, can not be key in dict, is restricted by square brackets.
+    Tuple: is unmutable (can only be read), is faster than list, can be key in dict, is restricted by round brackets, must have at least one comma.
+"""
