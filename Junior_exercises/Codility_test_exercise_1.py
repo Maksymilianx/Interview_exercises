@@ -1,6 +1,6 @@
 def solution(A):
     """
-    :param A: an undefined list of 0 and 1
+    :param A: an undefined list of zeros and ones
     :return: catches how many 0 should equal 1 or 1 should equal 0 to sort list in [0,1,0,1] or [1,0,1,0,1,0] order.
     """
     x = 0
