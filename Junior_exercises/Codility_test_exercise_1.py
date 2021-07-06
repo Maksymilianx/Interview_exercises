@@ -12,6 +12,10 @@ def solution(A):
             k = 1
         else:
             k = 0
+    if x == 0:
+        return x
+    else:
+        pass
     y = 0
     k = 1
     for i in A:
@@ -22,3 +26,6 @@ def solution(A):
         else:
             k = 0
     return min(x, y)
+
+
+print(solution([1, 1, 1, 0, 1, 0]))
