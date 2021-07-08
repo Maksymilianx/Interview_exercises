@@ -8,7 +8,7 @@ def solution(S, C):
     many = []
     cost = 0
     previous = None
-    # We can use "C.append" and "S +=" two to force loop to finish every iteration
+    # We can use "C.append" and "S +=" to force loop to finish last iteration
     # C.append(None)
     # S += '.'
     x = zip(S, C)
