@@ -54,6 +54,7 @@ def powers_of_two():
         yield (2 ** a)
         a += 1
 
+
 for i in powers_of_two():
     print(i)
     if i == 2048:
@@ -65,3 +66,27 @@ for i in powers_of_two():
     List: is mutable (can be changed), is slower than tuple, can not be key in dict, is restricted by square brackets.
     Tuple: is unmutable (can only be read), is faster than list, can be key in dict, is restricted by round brackets, must have at least one comma.
 """
+
+# 6. What are *args and **kwargs?
+
+"""
+    *args are any number of positional parameters in the function. Stored as a tuple.
+"""
+
+
+def add_numbers(*args):
+    result = 0
+    for num in args:
+        result += num
+    return result
+
+
+"""
+    **kwargs are any number of dictionary parameters. Stored as a dictionary.
+"""
+
+
+def my_func(**kwargs):
+    for key in kwargs:
+        print(f"{key} = {kwargs[key]}")
+
