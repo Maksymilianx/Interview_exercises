@@ -90,3 +90,15 @@ def my_func(**kwargs):
     for key in kwargs:
         print(f"{key} = {kwargs[key]}")
 
+
+# 7. What are comprehensions?
+
+"""
+    Comprehensions are simplified, one-line ways to create a list, dictionary, or generator.
+"""
+
+result = []
+for i in range(10):
+    result.append(2 ** i)
+
+result = [2 ** i for i in range(10)]
