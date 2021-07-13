@@ -102,3 +102,19 @@ for i in range(10):
     result.append(2 ** i)
 
 result = [2 ** i for i in range(10)]
+
+# 8. What is decorator and how it's work?
+
+"""
+    A decorator is, in short: a function that takes another function as a parameter, 
+    modifies its operation, and returns the result.
+"""
+
+
+
+
+
+
+
+
+
